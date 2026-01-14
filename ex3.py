@@ -101,12 +101,30 @@ class Controller:
                     best_rid = rid
 
             # Priority 2: If at a tap and not full, LOAD
+            # elif robot_pos in tap_positions and load < cap:
+            #     priority = 900
+            #     if priority > best_priority:
+            #         best_priority = priority
+            #         best_action = f"LOAD({rid})"
+            #         best_rid = rid
             elif robot_pos in tap_positions and load < cap:
-                priority = 900
-                if priority > best_priority:
-                    best_priority = priority
-                    best_action = f"LOAD({rid})"
-                    best_rid = rid
+                max_need = max(remaining_plants.values()) if remaining_plants else 0
+
+                # horizon-aware target: don't waste turns overloading
+                # with H=30, loading beyond 3-4 is usually bad
+                target_load = min(max_need, 3)
+
+                if load < target_load:
+                    priority = 900
+                    if priority > best_priority:
+                        best_priority = priority
+                        best_action = f"LOAD({rid})"
+                        best_rid = rid
+                else:
+                    # already enough to leave tap; do NOT load more
+                    pass
+
+
 
             # Priority 3: If no water, move to nearest tap
             elif load == 0 and tap_positions:
@@ -179,6 +197,7 @@ class Controller:
                             best_rid = rid
 
         if best_action:
+            print("BEST ACTION:", best_action, "FOR ROBOT:", best_rid)
             return best_action
-
+        print("RESET")
         return "RESET"
