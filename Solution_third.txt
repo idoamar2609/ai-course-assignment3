@@ -1,0 +1,87 @@
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=1.666667 | time_average=0.029234s
+problem_pdf2: reward_average=2.366667 | time_average=0.019573s
+problem_pdf3: reward_average=3.200000 | time_average=0.022916s
+problem_new1_version1: reward_average=0.000000 | time_average=0.016593s
+problem_new1_version2: reward_average=1.466667 | time_average=0.044272s
+problem_new1_version3: reward_average=0.433333 | time_average=0.016398s
+problem_new2_version1: reward_average=0.166667 | time_average=0.021948s
+problem_new2_version2: reward_average=0.966667 | time_average=0.040055s
+problem_new2_version3: reward_average=0.400000 | time_average=0.020570s
+problem_new2_version4: reward_average=0.466667 | time_average=0.031549s
+problem_new3_version1: reward_average=0.000000 | time_average=0.022709s
+problem_new3_version2: reward_average=0.000000 | time_average=0.037957s
+problem_new3_version3: reward_average=0.866667 | time_average=0.141188s
+problem_new4_version1: reward_average=1.500000 | time_average=0.144544s
+problem_new4_version2: reward_average=0.033333 | time_average=0.021844s
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=0.300000 | time_average=0.034575s
+problem_pdf2: reward_average=1.266667 | time_average=0.025840s
+problem_pdf3: reward_average=10.866667 | time_average=0.020833s
+problem_new1_version1: reward_average=0.000000 | time_average=0.017190s
+problem_new1_version2: reward_average=14.166667 | time_average=0.041915s
+problem_new1_version3: reward_average=3.433333 | time_average=0.017561s
+problem_new2_version1: reward_average=0.000000 | time_average=0.018400s
+problem_new2_version2: reward_average=0.000000 | time_average=0.039302s
+problem_new2_version3: reward_average=0.000000 | time_average=0.017134s
+problem_new2_version4: reward_average=4.533333 | time_average=0.025292s
+problem_new3_version1: reward_average=0.000000 | time_average=0.015199s
+problem_new3_version2: reward_average=0.000000 | time_average=0.026676s
+problem_new3_version3: reward_average=0.000000 | time_average=0.114483s
+problem_new4_version1: reward_average=9.400000 | time_average=0.167901s
+problem_new4_version2: reward_average=5.166667 | time_average=0.052671s
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=0.300000 | time_average=0.037331s
+problem_pdf2: reward_average=1.266667 | time_average=0.030419s
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=10.266667 | time_average=0.040937s
+problem_pdf2: reward_average=14.600000 | time_average=0.035277s
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=12.233333 | time_average=0.046115s
+problem_pdf2: reward_average=25.666667 | time_average=0.034781s
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=12.233333 | time_average=0.033191s
+problem_pdf2: reward_average=25.666667 | time_average=0.048654s
+problem_pdf3: reward_average=25.433333 | time_average=0.033005s
+problem_new1_version1: reward_average=41.033333 | time_average=0.036567s
+problem_new1_version2: reward_average=67.866667 | time_average=0.089473s
+problem_new1_version3: reward_average=21.666667 | time_average=0.032573s
+problem_new2_version1: reward_average=28.200000 | time_average=0.036151s
+problem_new2_version2: reward_average=103.500000 | time_average=0.087866s
+problem_new2_version3: reward_average=33.766667 | time_average=0.044281s
+problem_new2_version4: reward_average=26.633333 | time_average=0.059129s
+problem_new3_version1: reward_average=0.000000 | time_average=0.035246s
+problem_new3_version2: reward_average=11.766667 | time_average=0.067689s
+problem_new3_version3: reward_average=0.000000 | time_average=0.289140s
+problem_new4_version1: reward_average=79.733333 | time_average=0.297389s
+problem_new4_version2: reward_average=15.100000 | time_average=0.069628s
+Averages per problem (n_runs = 30)
+==================================================
+
+problem_pdf: reward_average=12.233333 | time_average=0.052019s
+problem_pdf2: reward_average=25.666667 | time_average=0.045410s
+problem_pdf3: reward_average=25.433333 | time_average=0.038374s
+problem_new1_version1: reward_average=41.033333 | time_average=0.036269s
+problem_new1_version2: reward_average=67.866667 | time_average=0.070038s
+problem_new1_version3: reward_average=21.666667 | time_average=0.032977s
+problem_new2_version1: reward_average=28.200000 | time_average=0.032230s
+problem_new2_version2: reward_average=103.500000 | time_average=0.076942s
+problem_new2_version3: reward_average=33.766667 | time_average=0.030700s
+problem_new2_version4: reward_average=26.633333 | time_average=0.039058s
+problem_new3_version1: reward_average=0.000000 | time_average=0.025700s
+problem_new3_version2: reward_average=11.766667 | time_average=0.044969s
+problem_new3_version3: reward_average=0.000000 | time_average=0.217210s
+problem_new4_version1: reward_average=79.733333 | time_average=0.223827s
+problem_new4_version2: reward_average=15.100000 | time_average=0.049912s
