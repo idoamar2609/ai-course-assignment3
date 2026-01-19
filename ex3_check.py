@@ -1,5 +1,5 @@
 import ext_plant
-import ex33
+import ex34
 import time
 import numpy as np
 import sys
@@ -780,7 +780,7 @@ def main():
     if "random" in args:
         controller_module = ex3_random
     else:
-        controller_module = ex33
+        controller_module = ex34
 
     # allow explicit problem selection using a bracketed list in the CLI, e.g.:
     #   python ex3_check.py [problem_pdf,problem_new1_version3]
